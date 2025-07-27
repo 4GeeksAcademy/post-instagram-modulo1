@@ -16,57 +16,71 @@ body {
     font-weight: 100px;
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
+        "wdth" 50;
     height: 50px;
 }
-.post-header-text{
+
+.post-header-text {
     margin-left: 0%;
 }
-.post-header-icon{
+
+.post-header-icon {
     margin-top: 15px;
 }
+
 .fab {
     font-size: 40px;
 }
-.fa-regular{
+
+.fa-regular {
     font-size: 30px;
 }
 
-.post-img{
-    margin-top : 20px;
-    height: 500px; /* Altura deseada */
+.post-img {
+    margin-top: 20px;
+    height: 500px;
+    /* Altura deseada */
     overflow: hidden
 }
-.post-img img{
-    width: 100%; /* Ancho deseado */
-    height: 100%; /* Altura deseada */
+
+.post-img img {
+    width: 100%;
+    /* Ancho deseado */
+    height: 100%;
+    /* Altura deseada */
     object-fit: fill;
 }
-.post-body{
+
+.post-body {
     position: absolute;
     background-color: white;
     width: 500px;
 }
-.post-body-heart{
+
+.post-body-heart {
     position: relative;
     left: 5px;
     top: 10px;
 }
-.post-body-comment{
+
+.post-body-comment {
     position: relative;
     left: 50px;
     bottom: 20px;
 }
-.post-body-airplane{
+
+.post-body-airplane {
     position: relative;
     left: 95px;
-    bottom:50px
+    bottom: 50px
 }
-.post-body-save{
+
+.post-body-save {
     position: relative;
     left: 460px;
-    bottom:84px
+    bottom: 84px
 }
+
 .post-body p {
     position: relative;
     font-family: "Roboto", sans-serif;
@@ -76,6 +90,6 @@ body {
     font-variation-settings:
         "wdth" 100;
     bottom: 85px;
-    left: 5px;  
+    left: 5px;
     right: 5px;
 }
