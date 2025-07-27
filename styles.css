@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    margin-left: 25%;
+}
+
+.post-header {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    height: 50px;
+}
+.post-header-text{
+    margin-left: 0%;
+}
+.post-header-icon{
+    margin-top: 15px;
+}
+.fab {
+    font-size: 40px;
+}
+.fa-regular{
+    font-size: 30px;
+}
+
+.post-img{
+    margin-top : 20px;
+    height: 500px; /* Altura deseada */
+    overflow: hidden
+}
+.post-img img{
+    width: 100%; /* Ancho deseado */
+    height: 100%; /* Altura deseada */
+    object-fit: fill;
+}
+.post-body{
+    position: absolute;
+    background-color: white;
+    width: 500px;
+}
+.post-body-heart{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+.post-body-comment{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+.post-body-airplane{
+    position: relative;
+    left: 95px;
+    bottom:50px
+}
+.post-body-save{
+    position: relative;
+    left: 460px;
+    bottom:84px
+}
+.post-body p {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    bottom: 85px;
+    left: 5px;  
+    right: 5px;
+}
