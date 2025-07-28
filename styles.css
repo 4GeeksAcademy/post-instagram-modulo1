@@ -39,15 +39,12 @@ body {
 .post-img {
     margin-top: 20px;
     height: 500px;
-    /* Altura deseada */
     overflow: hidden
 }
 
 .post-img img {
     width: 100%;
-    /* Ancho deseado */
     height: 100%;
-    /* Altura deseada */
     object-fit: fill;
 }
 
